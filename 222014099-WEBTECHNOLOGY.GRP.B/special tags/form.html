@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <body bgcolor="YELLOW">
+        <p>
+      <center>
+        <a href="./home.html">Home</a>
+        <a href="./list.html">List</a>
+        <a href="./form.html">Form</a>
+        <a href="./table.html">Table</a>
+        <a href="./radiobtn.html">Radio Button</a>
+        
+    </center>
+    </p>
+     <center>
+    <!-- Form Page -->
+    
+        <h1>Form of Student's Details</h1>
+        <form>
+            <label for="student_name"><b>Name:</b></label>
+            <input type="text" id="student_name" name="student_name" required><br><br>
+
+            <label for="dept"><b>Department:</b></label>
+            <select name="dept" id="dept" required>
+                <option>Accounting</option>
+                <option>BIT</option>
+                <option>Finance</option>
+                <option>Medecine</option>
+                <option>Sociology</option>
+                <option>Nursing</option>
+            </select><br><br>
+
+            <label for="student_age"><b>Age:</b></label>
+            <input type="text" id="student_age" name="student_age" required><br><br>
+
+            <label for="student_grade"><b>Grade:</b></label>
+            <input type="text" id="student_grade" name="student_grade" required><br><br>
+
+            <input type="submit" name="send" value="Submit">
+            <input type="reset" name="cnl" value="Cancel"><br>
+        </form>
+        </center>  
+</body>
+</html>
